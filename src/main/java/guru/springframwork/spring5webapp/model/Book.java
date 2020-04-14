@@ -26,6 +26,7 @@ public class Book {
         this.isbn = isbn;
         this.publisher = publisher;
     }
+    public Book(){}
 
     public Long getId() {
         return id;
